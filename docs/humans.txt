@@ -2,19 +2,15 @@ The Humans Responsible & Colophon
 humanstxt.org
 
 
-Empathy Prompts
-https://empathyprompts.net/
-
+Open For Whom
+https://openforwhom.org
 
 ## Team
-- Eric Bailey
-  - Designer
-  - Somerville, MA
-  - eric.w.bailey@gmail.com
-  - @ericwbailey
 
+- Joe McArthur
 
 ## Thanks
+- Eric Bailey, Designer, eric.w.bailey@gmail.com | @ericwbailey, who created https://empathyprompts.net which served as the inspiration and codebase for this site.
 - Wayne Elgin, for his patience and JavaScript help
 - Scott Doxey, for Progressive Web App help
 - My friends, family, and coworkers
