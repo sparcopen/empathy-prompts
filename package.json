@@ -1,5 +1,5 @@
 {
-  "name": "empathy-prompts",
+  "name": "Open For Whom",
   "description": "Prompts to consider when making things for others to use.",
   "homepage": "https://openforwhom.org",
   "version": "0.1.3",
@@ -15,8 +15,8 @@
     "url": "git://github.com/ericwbailey/empathy-prompts.git"
   },
   "bugs": {
-    "url": "https://github.com/ericwbailey/empathy-prompts/issues",
-    "email": "eric.w.bailey@gmail.com"
+    "url": "https://github.com/sparcopen/openforwhom/issues",
+    "email": "joe@sparcopen.org"
   },
   "dependencies": {
     "family.scss": "^1.0.8",
