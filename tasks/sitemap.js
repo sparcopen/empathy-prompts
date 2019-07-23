@@ -16,7 +16,7 @@ gulp.task('build-sitemap', help.sitemap.build, function() {
         read: false
     })
     .pipe(sitemap({
-        siteUrl: 'https://empathyprompts.net'
+        siteUrl: 'https://openforwhom.org'
     }))
     .pipe(gulp.dest(paths.sitemap.build.dest));
 });
