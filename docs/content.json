@@ -6,7 +6,7 @@
       "condition": "N/A"
     },
     "your-citing": {
-        "type":      "N/A",
+        "type":      "Your citing",
         "prompt":    "Review who you’re citing",
         "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
         "condition": "N/A"
@@ -15,7 +15,7 @@
           "type":      "N/A",
           "prompt":    "Remove paywalled citations",
           "details":   "For your last article, check to see which citations you referenced are not freely accessible without a subscription. The Open Access Button is a tool for this. Consider the impact on your work if you couldn’t have used these paywalled sources.",
-          "condition": "N/A"
+          "condition": "Paywall"
         },
   "on-board": {
       "type":      "N/A",
