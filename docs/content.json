@@ -11,6 +11,12 @@
         "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
         "condition": "You're Citing"
       },
+      "translating": {
+          "type":      "N/A",
+          "prompt":    "Run your last abstract through a translator",
+          "details":   "Translate the text into another language, then have the tool convert that translation back to the original language. Google offers a tool for doing this. The lack of accuracy is the point!",
+          "condition": "Translators"
+        },
       "reading": {
           "type":      "N/A",
           "prompt":    "Remove paywalled citations",
