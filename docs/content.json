@@ -5,6 +5,12 @@
       "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
       "condition": "N/A"
     },
+    "your-citing": {
+        "type":      "N/A",
+        "prompt":    "Review who you’re citing",
+        "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
+        "condition": "N/A"
+      },
   "on-board": {
       "type":      "N/A",
       "prompt":    "Review who’s on the editorial boards",
