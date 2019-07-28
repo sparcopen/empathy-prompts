@@ -3,13 +3,13 @@
       "type":      "N/A",
       "prompt":    "Review the editorial board of an international journal",
       "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
-      "condition": "N/A"
+      "condition": "International Boards"
     },
     "your-citing": {
-        "type":      "Your citing",
+        "type":      "N/A",
         "prompt":    "Review who you’re citing",
         "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
-        "condition": "N/A"
+        "condition": "You're Citing"
       },
       "reading": {
           "type":      "N/A",
@@ -21,7 +21,7 @@
       "type":      "N/A",
       "prompt":    "Review who’s on the editorial boards",
       "details":   "Of the last three journals you published in. How representative are each? Racially? Geographically? By gender? Bonus points for editorial boards you participate on.",
-      "condition": "N/A"
+      "condition": "Boards"
     }
 
 }
