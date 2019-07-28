@@ -17,6 +17,12 @@
           "details":   "Translate the text into another language, then have the tool convert that translation back to the original language. Google offers a tool for doing this. The lack of accuracy is the point!",
           "condition": "Translators"
         },
+        "learning": {
+            "type":      "N/A",
+            "prompt":    "Buy an expensive textbook",
+            "details":   "Then give it away.",
+            "condition": "Learning"
+          },
       "reading": {
           "type":      "N/A",
           "prompt":    "Remove paywalled citations",
