@@ -11,6 +11,12 @@
         "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
         "condition": "N/A"
       },
+      "reading": {
+          "type":      "N/A",
+          "prompt":    "Remove paywalled citations",
+          "details":   "For your last article, check to see which citations you referenced are not freely accessible without a subscription. The Open Access Button is a tool for this. Consider the impact on your work if you couldn’t have used these paywalled sources.",
+          "condition": "N/A"
+        },
   "on-board": {
       "type":      "N/A",
       "prompt":    "Review who’s on the editorial boards",
