@@ -1,14 +1,15 @@
 {
-  "Test": {
-      "type":      "Test",
-      "prompt":    "Test",
-      "details":   "This is a test and I hope it works test.",
-      "condition": "Test"
-  },
+  "on-international-boards": {
+      "type":      "N/A",
+      "prompt":    "Review the editorial board of an international journal",
+      "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
+      "condition": "N/A"
+    },
   "on-board": {
       "type":      "N/A",
       "prompt":    "Review who’s on the editorial boards",
       "details":   "Of the last three journals you published in. How representative are each? Racially? Geographically? By gender? Bonus points for editorial boards you participate on.",
       "condition": "N/A"
     }
+
 }
