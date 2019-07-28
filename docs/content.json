@@ -5,7 +5,7 @@
       "details":   "This is a test and I hope it works test.",
       "condition": "Test"
   },
-    "Test": {
+    "test2": {
         "type":      "test2",
         "prompt":    "Test",
         "details":   "This is a test and I hope it works test.",
