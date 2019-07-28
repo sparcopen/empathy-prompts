@@ -14,7 +14,7 @@
       "reading": {
           "type":      "N/A",
           "prompt":    "Remove paywalled citations",
-          "details":   "For your last article, check to see which citations you referenced are not freely accessible without a subscription. The Open Access Button is a tool for this. Consider the impact on your work if you couldn’t have used these paywalled sources.",
+          "details":   "For your last article, check to see which citations you referenced are not freely accessible without a subscription. The Open Access Button is a tool for this. Consider the impact on your work if you couldnt have used these paywalled sources.",
           "condition": "Paywall"
         },
   "on-board": {
