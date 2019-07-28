@@ -5,6 +5,12 @@
       "details":   "This is a test and I hope it works test.",
       "condition": "Test"
   },
+    "Test": {
+        "type":      "test2",
+        "prompt":    "Test",
+        "details":   "This is a test and I hope it works test.",
+        "condition": "Test"
+    },
     "arthritis": {
         "type":      "motor",
         "prompt":    "Wear mittens",
