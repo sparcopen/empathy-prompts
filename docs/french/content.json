@@ -1,0 +1,39 @@
+{
+  "on-international-boards": {
+      "type":      "N/A",
+      "prompt":    "Review the editorial board of an international journal",
+      "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
+      "condition": "International Boards"
+    },
+    "your-citing": {
+        "type":      "N/A",
+        "prompt":    "Review who you’re citing",
+        "details":   "For the last article you published, review the authors you cited. How many are women? People of color?",
+        "condition": "You're Citing"
+      },
+      "translating": {
+          "type":      "N/A",
+          "prompt":    "Run your last abstract through a translator",
+          "details":   "Translate the text into another language, then have the tool convert that translation back to the original language. Google offers a tool for doing this. The lack of accuracy is the point!",
+          "condition": "Translators"
+        },
+        "learning": {
+            "type":      "N/A",
+            "prompt":    "Buy an expensive textbook",
+            "details":   "Then give it away.",
+            "condition": "Learning"
+          },
+      "reading": {
+          "type":      "N/A",
+          "prompt":    "Remove paywalled citations",
+          "details":   "For your last article, check to see which citations you referenced are not freely accessible without a subscription. The Open Access Button is a tool for this. Consider the impact on your work if you couldnt have used these paywalled sources.",
+          "condition": "Paywall"
+        },
+  "on-board": {
+      "type":      "N/A",
+      "prompt":    "Review who’s on the editorial boards",
+      "details":   "Of the last three journals you published in. How representative are each? Racially? Geographically? By gender? Bonus points for editorial boards you participate on.",
+      "condition": "Boards"
+    }
+
+}
