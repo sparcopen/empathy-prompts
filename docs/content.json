@@ -5,6 +5,12 @@
       "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
       "condition": "International Boards"
     },
+    "intro": {
+        "type":      "N/A",
+        "prompt":    "Open For Whom",
+        "details":   "As the transition to a system for sharing knowledge that is open by default accelerates, the question “open for whom?” is essential—both to consider and to act upon. Whose interests are being prioritized in the actions we take and in the platforms that we support? Whose voices are excluded? Are underrepresented groups included as full partners from the beginning? Are we supporting not only open access but also equitable participation in research communication? These questions will determine the extent to which emerging open systems for research will address inequities in the current system or replicate and reinforce them.",
+        "condition": "Intro"
+      },
     "your-citing": {
         "type":      "N/A",
         "prompt":    "Review who you’re citing",
