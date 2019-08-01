@@ -15,6 +15,9 @@
 - [ ] fix 'what is this' being purple
 - [ ] use same prompts mechanic for show to use this.
 - [ ] remove 'change language' from intro
+- [ ] check colors for accessibility
+- [ ] run automated accessibility checks
+- [ ] see how empathyprompts made non-web resources
 
 
 - [ ] page linked from /intro with more local resources
