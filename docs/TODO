@@ -1,24 +1,26 @@
 - [ ] css on nav pages
 - [ ] fix icon for translate
-- [X] strip out some fav cons (Nah! They're fine)
-- [ ] make sure not of the old taglines etc remains
-- [ ] clean repo
-- [X] add links to copy
-- [X] arabic right to left.
+- [ ] make sure not of the old taglines etc remains. see headers
+- [ ] fix 'what is this' being purple
+- [ ] use same prompts mechanic for show to ideas for local use.
 - [ ] non-latin urls
-- [X] put in analytics. Privacy friendly ones?
 - [ ] send a note to Lorraine & creator about the site
 - [ ] is there a design system for the buttons?
+- [ ] check colors for accessibility
+- [ ] run automated accessibility checks
+- [ ] figure out if I want to move the servers
+
+- [X] strip out some fav cons (Nah! They're fine)
+- [X] clean repo
+- [X] add links to copy
+- [X] arabic right to left.
+- [X] put in analytics. Privacy friendly ones?
 - [X] can the share button include a hashtag??? for twitter etc.
 - [X] how do we collect translations? a spreadsheet
 - [X] where does the licence go?
-- [ ] fix 'what is this' being purple
-- [ ] use same prompts mechanic for show to ideas for local use.
 - [X] remove 'change language' from intro
-- [ ] check colors for accessibility
-- [ ] run automated accessibility checks
+
 - [X] see how empathyprompts made non-web resources
-- [ ] figure out if I want to move the servers
 - [X] page linked from /intro with more local resources
     * tell people how to print: control + P
     * tell people about slides: https://docs.google.com/presentation/d/1cdpJywJ1kpDFJR7snSDuGN_IG34YQkW8fGemwDizf_g/edit#slide=id.p
