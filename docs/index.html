@@ -45,6 +45,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>WebFont.load({google:{families:["Heebo:400,500,700"]}})</script>
 
+  <script type="text/javascript">
+
+  var language = navigator.language || navigator.browserLanguage; //for IE
+
+  // alert(language);
+  if (language.indexOf('en') > -1) {
+  } if (language.indexOf('fr') > -1) {
+  document.location.href = 'http://ouvertpourqui.org';
+  } else {
+  document.location.href = 'https://openforwhom.org/translations';
+
+  }
+  </script>
+
   </head>
 
   <body>
