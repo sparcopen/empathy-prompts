@@ -4,7 +4,7 @@
 - [ ] fix icon for translate
 - [ ] use same prompts mechanic for show to ideas for local use.
 - [ ] non-latin urls
-- [ ] is there a design system for the buttons?
+- [ ] is there a design system for the buttons? i.e how do i make it sensible to place buttons in certain places? 
 - [ ] check colors for accessibility
 - [ ] run automated accessibility checks
 
