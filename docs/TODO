@@ -11,7 +11,7 @@
 - [ ] is there a design system for the buttons?
 - [X] can the share button include a hashtag??? for twitter etc.
 - [X] how do we collect translations? a spreadsheet
-- [ ] where does the licence go?
+- [X] where does the licence go?
 - [ ] fix 'what is this' being purple
 - [ ] use same prompts mechanic for show to ideas for local use.
 - [X] remove 'change language' from intro
