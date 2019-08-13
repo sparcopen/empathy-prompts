@@ -1,15 +1,15 @@
-- [ ] css on nav pages
-- [ ] fix icon for translate
+- [ ] css on nav pages (& fix 'what is this' being purple)
 - [ ] make sure not of the old taglines etc remains. see headers
-- [ ] fix 'what is this' being purple
+- [ ] send a note to Lorraine & creator about the site
+- [ ] fix icon for translate
 - [ ] use same prompts mechanic for show to ideas for local use.
 - [ ] non-latin urls
-- [ ] send a note to Lorraine & creator about the site
 - [ ] is there a design system for the buttons?
 - [ ] check colors for accessibility
 - [ ] run automated accessibility checks
-- [ ] figure out if I want to move the servers
 
+
+- [X] figure out if I want to move the servers
 - [X] strip out some fav cons (Nah! They're fine)
 - [X] clean repo
 - [X] add links to copy
