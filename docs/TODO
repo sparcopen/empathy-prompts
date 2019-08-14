@@ -1,14 +1,16 @@
 - [ ] css on nav pages (& fix 'what is this' being purple)
-- [ ] make sure not of the old taglines etc remains. see headers
+- [ ] make sure none of the old taglines etc remains. see headers
 - [ ] send a note to Lorraine & creator about the site
 - [ ] fix icon for translate
 - [ ] use same prompts mechanic for show to ideas for local use.
 - [ ] non-latin urls
-- [ ] is there a design system for the buttons? i.e how do i make it sensible to place buttons in certain places? 
+- [ ] is there a design system for the buttons? i.e how do i make it sensible to place buttons in certain places?
 - [ ] check colors for accessibility
-- [ ] run automated accessibility checks
+- [ ] Check mobile performance
+- [ ] how to make show another button stand out? Options: have it be bigger, have it alone, have it be under text?
+- [ ] Globe icon for language.
 
-
+- [X] run automated accessibility checks
 - [X] figure out if I want to move the servers
 - [X] strip out some fav cons (Nah! They're fine)
 - [X] clean repo
@@ -19,7 +21,7 @@
 - [X] how do we collect translations? a spreadsheet
 - [X] where does the licence go?
 - [X] remove 'change language' from intro
-
+- [X] take comments from community call and put above
 - [X] see how empathyprompts made non-web resources
 - [X] page linked from /intro with more local resources
     * tell people how to print: control + P
