@@ -10,10 +10,6 @@
   <link href="/main.css" rel="stylesheet"/>
   <link href="/manifest.json" rel="manifest"/>
   <link href="/favicon.ico" rel="shortcut icon"/>
-  <meta content="Open For Whom" name="apple-mobile-web-app-title"/>
-  <meta content="Open For Whom" name="application-name"/>
-  <meta content="#b500cf" name="msapplication-TileColor"/>
-  <meta content="#b500cf" name="theme-color"/>
   <meta content="summary" name="twitter:card"/>
   <meta content="Open For Whom" name="twitter:title"/>
   <meta content="Prompts to consider when making things for others to use." name="twitter:description"/>
@@ -118,15 +114,23 @@
       <use xlink:href="#icon-info"></use>
     </svg> <span class="c-action__text">What is this?</span></a></aside>
 
-<a href="/translations" style="color:#111;text-decoration:none">
-  <button class="c-action" id="show-translations" name="show-translations" type="button">
-    <svg aria-hidden="true" class="icon" height="32" viewBox="0 0 100 100" width="32"><use xlink:href="#icon-world"></use></svg>
-    <span class="c-action__text">Language</span>
-  </button>
-</a>
+    <aside aria-labelledby="title-about" class="l-aside" id="aside">
+      <h2 class="content-hide-visually" id="title-about">Language</h2>
+      <a href="translations" class="c-action c-action--what-is-this">
+        <svg aria-hidden="true" class="icon" height="32" viewBox="0 0 100 100" width="32">
+          <use xlink:href="#icon-info"></use>
+        </svg> <span class="c-action__text">Language</span></a></aside>
+
 <nav aria-labelledby="show-another" class="l-nav" id="nav">
 
-
+<!--
+  <a href="/translations" style="color:#111;text-decoration:none">
+    <button class="c-action" id="show-translations" name="show-translations" type="button">
+      <svg aria-hidden="true" class="icon" height="32" viewBox="0 0 100 100" width="32"><use xlink:href="#icon-world"></use></svg>
+      <span class="c-action__text">Language</span>
+    </button>
+  </a>
+-->
 
   <button class="c-action c-action--share" id="share" name="share" type="button"><svg aria-hidden="true" class="icon" height="32" viewBox="0 0 100 100" width="32"><use xlink:href="#icon-share"></use></svg> <span class="c-action__text">Share</span>
   </button>
