@@ -16,6 +16,6 @@
         "prompt":    "Review the editorial board of an international journal",
         "details":   "Find a journal in your discipline that describes itself as international. Review how globally representative its editorial board is.",
         "condition": "International Boards"
-        },
+        }
 
 }
