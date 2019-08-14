@@ -532,6 +532,12 @@ object {
         top: 1.2rem;
         right: 1.2rem
     }
+    .l-really-aside {
+        margin: 0;
+        position: absolute;
+        top: 1.2rem;
+        right: 6.2rem
+    }
 }
 
 @media (min-width:56.25em) {
