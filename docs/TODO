@@ -3,14 +3,16 @@
 - [ ] send a note to Lorraine & creator about the site
 - [ ] use same prompts mechanic for show to ideas for local use.
 - [ ] non-latin urls
-- [ ] is there a design system for the buttons? i.e how do i make it sensible to place buttons in certain places?
 - [ ] check colors for accessibility
-- [ ] Check mobile performance
-- [ ] how to make show another button stand out? Options: have it be bigger, have it alone, have it be under text?
-- [ ] consider setting c.action em to 1.
-
 - [ ] make sure I've done all the following: https://uxdesign.cc/my-take-on-language-selectors-945caceb58f7, https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708, https://www.w3.org/International/questions/qa-navigation-select, https://www.nomensa.com/blog/2010/7-tips-for-multi-lingual-website-accessibility
 
+- [ ] on mobile language is a mess
+
+
+- [X] Check mobile performance
+- [X] how to make show another button stand out? Options: have it be bigger, have it alone, have it be under text?
+- [X] is there a design system for the buttons? i.e how do i make it sensible to place buttons in certain places?
+- [X] consider setting c.action em to 1.
 - [X] fix icon for translate & resources
 - [X] run automated accessibility checks
 - [X] figure out if I want to move the servers
@@ -30,3 +32,4 @@
     * tell people about slides: https://docs.google.com/presentation/d/1cdpJywJ1kpDFJR7snSDuGN_IG34YQkW8fGemwDizf_g/edit#slide=id.p
     * link to ideas for how to use & why:
       * how do events use this? 1. for an internal library focus, perhaps structure a meeting around bits of this. Then have people pick a couple of prompts and get people to do them. Then, share back after & discuss. 2. put these on screen and get people to reflect on it. A way to put dei into more presentations.
+- [X] WONT FIX (present on original). On mobile, hitting refresh while on a # will cause all to show.
