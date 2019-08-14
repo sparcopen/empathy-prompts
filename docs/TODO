@@ -1,11 +1,13 @@
 - [ ] css on nav pages (& fix 'what is this' being purple)
-- [ ] make sure none of the old taglines etc remains. see headers
+- [ ] make sure none of the old taglines & github stuff etc remains. see headers. Need a one-liner first.
 - [ ] send a note to Lorraine & creator about the site
 - [ ] non-latin urls
 - [ ] check colors for accessibility
 - [ ] make sure I've done all the following: https://uxdesign.cc/my-take-on-language-selectors-945caceb58f7, https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708, https://www.w3.org/International/questions/qa-navigation-select, https://www.nomensa.com/blog/2010/7-tips-for-multi-lingual-website-accessibility
-- [ ] on mobile language is a mess
+- [ ] on mobile language is a mess. Consider having a class on the page that responds to media queries as needed.
 - [ ] clean up code before translation
+- [ ] translation to languages
+- [ ] generate new /social images
 
 - [X] use same prompts mechanic for show to ideas for local use.
 - [X] Check mobile performance
