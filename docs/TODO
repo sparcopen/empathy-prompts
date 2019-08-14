@@ -9,6 +9,9 @@
 - [ ] Check mobile performance
 - [ ] how to make show another button stand out? Options: have it be bigger, have it alone, have it be under text?
 - [ ] Globe icon for language.
+- [ ] consider setting c.action em to 1. 
+
+- [ ] make sure I've done all the following: https://uxdesign.cc/my-take-on-language-selectors-945caceb58f7, https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708, https://www.w3.org/International/questions/qa-navigation-select, https://www.nomensa.com/blog/2010/7-tips-for-multi-lingual-website-accessibility
 
 - [X] run automated accessibility checks
 - [X] figure out if I want to move the servers
