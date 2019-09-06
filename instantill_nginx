@@ -1,0 +1,65 @@
+# REDIRECTS - EVERYTHING TO HTTPS AND NO WWW
+server {
+  listen      80;
+  server_name instantill.org *.instantill.org;
+  return 301 https://$server_name$request_uri;
+}
+
+server {
+  listen 443;
+  server_name www.instantill.org;
+  return 301 https://instantill.org;
+}
+
+server {
+  listen 443;
+  server_name instantill.org;
+  #root /home/cloo/live/openresearchbutton/website;
+  return 302 https://openaccessbutton.org/instantill;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/instantill.org/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/instantill.org/privkey.pem;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers "HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES";
+  ssl_prefer_server_ciphers on;
+  ssl_stapling on;
+  add_header Strict-Transport-Security "max-age=31536000;";
+
+  add_header Pragma public;
+  add_header Cache-Control "public";
+  add_header Access-Control-Allow-Origin *;
+}
+
+server {
+  listen 443;
+  server_name dev.instantill.org;
+  root /home/cloo/dev/openresearchbutton/website;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/dev.instantill.org/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/dev.instantill.org/privkey.pem;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers "HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES";
+  ssl_prefer_server_ciphers on;
+  ssl_stapling on;
+  add_header Strict-Transport-Security "max-age=31536000;";
+
+  add_header Pragma public;
+  add_header Cache-Control "public";
+  add_header Access-Control-Allow-Origin *;
+
+  location / {
+    try_files /serve/instantill_demo_rebrand.html =404;
+  }
+
+  location /setup {
+    try_files /serve/instantill_alpha_rebrand.html =404;
+  }
+
+  location /static {
+    try_files /serve/$uri $uri =404;
+#    expires 30d;
+  }
+}
+

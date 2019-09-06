@@ -1,0 +1,35 @@
+# REDIRECTS - EVERYTHING TO HTTPS AND NO WWW
+server {
+  listen 80;
+  server_name openforwhom.org *.openforwhom.org;
+  return 301 https://openforwhom.org$request_uri;
+}
+
+server {
+  listen 443;
+  server_name www.openforwhom.org;
+  return 301 https://openforwhom.org;
+}
+
+server {
+  listen 443;
+  server_name openforwhom.org;
+  root /home/cloo/live/openresearchbutton/openforwhom/docs;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/openforwhom.org/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/openforwhom.org/privkey.pem;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers "HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES";
+  ssl_prefer_server_ciphers on;
+  ssl_stapling on;
+  add_header Strict-Transport-Security "max-age=31536000;";
+
+  add_header Pragma public;
+  add_header Cache-Control "public";
+  add_header Access-Control-Allow-Origin *;
+
+  location / {
+    try_files $uri $uri.html =404;
+  }
+}
