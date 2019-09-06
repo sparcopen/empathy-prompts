@@ -16,6 +16,8 @@ server {
   server_name openforwhom.org;
   root /home/cloo/live/openresearchbutton/openforwhom/docs;
 
+  rewrite ^/(.*)/$ /$1 permanent;
+
   ssl on;
   ssl_certificate /etc/letsencrypt/live/openforwhom.org/fullchain.pem;
   ssl_certificate_key /etc/letsencrypt/live/openforwhom.org/privkey.pem;
@@ -29,7 +31,11 @@ server {
   add_header Cache-Control "public";
   add_header Access-Control-Allow-Origin *;
 
-  location / {
-    try_files $uri $uri.html =404;
+  location = / {
+    # don't do the try_files on the root with trailing slash as causes issues with /#thing
   }
+  location / {
+    try_files $uri $uri.html $uri/index.html =404;
+  }
+
 }
