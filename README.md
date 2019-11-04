@@ -39,7 +39,7 @@ The best way to submit Issues (problems with the project) and Pull Requests (add
 We thank:
 
 - OC: http://www.openaccessweek.org/profiles/blogs/advisory-committee
-- Original Creator: Ericw Bailey
+- Original Creator: [Eric Bailey](https://ericwbailey.design/)
 
 He thanked:
 
